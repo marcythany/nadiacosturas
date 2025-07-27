@@ -10,13 +10,17 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
+		"@radix-ui/react-dialog": "^1.1.14",
+		"@radix-ui/react-slot": "^1.2.3",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
+		"keen-slider": "^6.8.6",
 		"lucide-react": "^0.526.0",
 		"motion": "^12.23.9",
 		"next": "15.4.4",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
+		"react-qr-code": "^2.0.18",
 		"sharp": "^0.34.3",
 		"tailwind-merge": "^3.3.1"
 	},
