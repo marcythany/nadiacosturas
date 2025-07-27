@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nadia Costuras ✂️
 
-## Getting Started
+A clean and modern microsite for Nadia, a talented seamstress who specializes in custom tailoring and clothing repairs. Built with cutting-edge frontend tech to reflect her warm, welcoming style and love for home and animals.
 
-First, run the development server:
+## 🔗 Live Preview
+
+Coming soon...
+
+---
+
+## ✨ Features
+
+- Responsive layout for mobile and desktop
+- Soft, warm theme using orange/yellow tones
+- ShadCN UI with minimal design system
+- Framer Motion animations
+- Accessible and performant setup
+
+---
+
+## 🛠️ Tech Stack
+
+- [Bun](https://bun.sh/) `v1.2.19`
+- [Next.js](https://nextjs.org/) `v15`
+- [TypeScript](https://www.typescriptlang.org/) `v5.8.3`
+- [Tailwind CSS](https://tailwindcss.com/) `v4.1+`
+- [ShadCN UI](https://ui.shadcn.com/) (minimal installation)
+- [Lucide React](https://lucide.dev/) `v0.526.0`
+- [Framer Motion](https://www.framer.com/motion/) `v12.23.9`
+- [Sharp](https://sharp.pixelplumbing.com/) `v0.34.3`
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/marcythany/nadiacosturas.git
+cd nadiacosturas
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+bun install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run dev server**
 
-## Learn More
+```bash
+bun run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+/ - Next.js project root
+  ├── app/               # Routes and pages
+  ├── components/        # UI components
+  ├── styles/            # Global styles
+  ├── public/            # Static files
+  └── ...
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✅ Todos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-
+
+---
+
+## 💬 License
+
+This project is for personal and learning purposes only.
+
+---
+
+Made with ❤️ by [Marcy](https://github.com/marcythany)
+
