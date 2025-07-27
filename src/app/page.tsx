@@ -1,15 +1,9 @@
+// src/app/page.tsx
 import BusinessCard from '@/components/BusinessCard';
+import GallerySection from '@/components/GallerySection';
 import ServiceCard from '@/components/ServicesCard';
 import { CONTACT_INFO, SERVICES } from '@/lib/conts';
-import dynamic from 'next/dynamic';
 import { Dancing_Script } from 'next/font/google';
-import { Suspense } from 'react';
-
-// Dynamic imports for code splitting
-const ImageGallery = dynamic(() => import('@/components/ImageGallery'), {
-	ssr: false,
-	loading: () => <div className='bg-gray-100 rounded-xl h-64 animate-pulse' />,
-});
 
 // Font loading with swap
 const dancingScript = Dancing_Script({
@@ -58,18 +52,7 @@ export default function Home() {
 				</section>
 
 				{/* Gallery */}
-				<section className='my-16'>
-					<h2 className='text-3xl font-bold text-center mb-12 text-[#D97706]'>
-						Trabalhos Recentes
-					</h2>
-					<Suspense
-						fallback={
-							<div className='h-64 bg-gray-100 rounded-xl animate-pulse' />
-						}
-					>
-						<ImageGallery images={[]} /> {/* Populate with actual images */}
-					</Suspense>
-				</section>
+				<GallerySection />
 
 				{/* About */}
 				<section className='my-16 max-w-2xl mx-auto bg-white rounded-2xl p-8 shadow-sm'>
