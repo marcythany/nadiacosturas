@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'Framer-motion';
+import { motion } from 'motion/react';
 
 const services = [
 	{

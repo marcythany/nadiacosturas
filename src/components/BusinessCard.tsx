@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'Framer-motion';
 import { Instagram, Mail, Phone } from 'lucide-react';
+import { motion } from 'motion/react';
 import Image from 'next/image';
 import QRCode from 'react-qr-code';
 
