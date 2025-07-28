@@ -43,19 +43,24 @@
 	--radius-lg: var(--radius);
 	--radius-xl: calc(var(--radius) + 4px);
 
-	/* 🟡🟠 Nadia Costuras */
-	--color-primary: #fbbf24; /* amarelo 400 */
-	--color-primary-dark: #d97706; /* amarelo 600 */
-	--color-secondary: #f97316; /* laranja 500 */
-	--color-secondary-dark: #ea580c; /* laranja 600 */
+	/* Vibrant Yellow-Orange Palette */
+	--color-primary: #946c00;
+	--color-primary-dark: #6c4e00;
+	--color-secondary: #a75a00;
+	--color-secondary-dark: #844300;
 
-	--color-accent: var(--color-secondary);
-	--color-accent-foreground: oklch(0 0 0);
+	/* Gradient Tokens */
+	--gradient-sunset: linear-gradient(135deg, #92400e, #c2410c);
+	--gradient-sunset-hover: linear-gradient(135deg, #6b2100, #9a3412);
 
-	--color-button-bg: var(--color-primary);
-	--color-button-hover: var(--color-primary-dark);
-	--color-card-bg: var(--color-secondary);
-	--color-card-hover: var(--color-secondary-dark);
+	/* Glassmorphism Effect */
+	--glass-bg: rgba(255, 255, 255, 0.25);
+	--glass-border: rgba(255, 255, 255, 0.18);
+	--glass-filter: blur(12px);
+
+	/* 3D Depth Shadows */
+	--elevation-1: 0 4px 12px rgba(0, 0, 0, 0.05);
+	--elevation-2: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 :root {
@@ -133,5 +138,21 @@
 	}
 	body {
 		@apply bg-background text-foreground;
+	}
+}
+@layer utilities {
+	.glass {
+		background: var(--glass-bg);
+		backdrop-filter: var(--glass-filter);
+		-webkit-backdrop-filter: var(--glass-filter);
+		border: 1px solid var(--glass-border);
+	}
+
+	.sunset-gradient {
+		background: var(--gradient-sunset);
+	}
+
+	.sunset-gradient-hover:hover {
+		background: var(--gradient-sunset-hover);
 	}
 }
