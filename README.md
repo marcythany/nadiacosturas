@@ -4,7 +4,9 @@ A clean and modern microsite for Nadia, a talented seamstress who specializes in
 
 ## 🔗 Live Preview
 
-Coming soon...
+[View Live Site](https://nadiacosturas.vercel.app/)
+
+![Nadia Costuras Screenshot](./public/screenshot.png)
 
 ---
 
@@ -23,10 +25,9 @@ Coming soon...
 - [Bun](https://bun.sh/) `v1.2.19`
 - [Next.js](https://nextjs.org/) `v15`
 - [TypeScript](https://www.typescriptlang.org/) `v5.8.3`
-- [Tailwind CSS](https://tailwindcss.com/) `v4.1+`
-- [ShadCN UI](https://ui.shadcn.com/) (minimal installation)
-- [Lucide React](https://lucide.dev/) `v0.526.0`
-- [Framer Motion](https://www.framer.com/motion/) `v12.23.9`
+- [Tailwind CSS](https://tailwindcss.com/) `v4.1`
+- [iconify](https://iconify.design/) `v0.526.0`
+- [Motion](https://motion.dev/) `12.23.9`
 - [Sharp](https://sharp.pixelplumbing.com/) `v0.34.3`
 
 ---
@@ -58,18 +59,69 @@ bun run dev
 
 ```
 / - Next.js project root
-  ├── app/               # Routes and pages
-  ├── components/        # UI components
-  ├── styles/            # Global styles
-  ├── public/            # Static files
-  └── ...
+nadia-costuras/
+├─ .husky/
+│  └─ _/
+│     ├─ .gitignore
+│     ├─ applypatch-msg
+│     ├─ commit-msg
+│     ├─ h
+│     ├─ husky.sh
+│     ├─ post-applypatch
+│     ├─ post-checkout
+│     ├─ post-commit
+│     ├─ post-merge
+│     ├─ post-rewrite
+│     ├─ pre-applypatch
+│     ├─ pre-auto-gc
+│     ├─ pre-commit
+│     ├─ pre-merge-commit
+│     ├─ pre-push
+│     ├─ pre-rebase
+│     └─ prepare-commit-msg
+├─ .vercel/
+│  ├─ project.json
+│  └─ README.txt
+├─ public/
+│  ├─ pattern.svg
+│  ├─ screenshot.png
+│  └─ zig-zag.svg
+├─ src/
+│  ├─ app/
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx
+│  │  ├─ page.tsx
+│  │  ├─ robots.ts
+│  │  └─ sitemap.ts
+│  ├─ components/
+│  │  ├─ ui/
+│  │  │  └─ Icon.tsx
+│  │  ├─ AnimatedHero.tsx
+│  │  ├─ AnimatedService.tsx
+│  │  ├─ FloatingActionButton.tsx
+│  │  ├─ MotionWrapper.tsx
+│  │  ├─ ServiceCard.tsx
+│  │  └─ structured-data.tsx
+│  ├─ lib/
+│  │  ├─ conts.ts
+│  │  └─ utils.ts
+│  └─ types/
+│     └─ index.ts
+├─ .gitignore
+├─ .lighthouserc.js
+├─ commitlint.config.js
+├─ components.json
+├─ eslint.config.mjs
+├─ LICENSE
+├─ next-env.d.ts
+├─ next.config.ts
+├─ package.json
+├─ postcss.config.mjs
+├─ README.md
+├─ tsconfig.json
+└─ vercel.json
 ```
-
----
-
-## ✅ Todos
-
--
 
 ---
 
