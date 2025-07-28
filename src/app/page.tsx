@@ -75,7 +75,7 @@ export default function Home() {
 					</Suspense>
 				</div>
 
-				<div className='flex-1 py-12'>
+				<div className='flex-1 pt-8'>
 					<Suspense
 						fallback={
 							<div className='max-w-4xl mx-auto px-4'>

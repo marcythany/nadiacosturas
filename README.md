@@ -14,8 +14,7 @@ A clean and modern microsite for Nadia, a talented seamstress who specializes in
 
 - Responsive layout for mobile and desktop
 - Soft, warm theme using orange/yellow tones
-- ShadCN UI with minimal design system
-- Framer Motion animations
+- Motion smooth animations
 - Accessible and performant setup
 
 ---
@@ -61,27 +60,7 @@ bun run dev
 / - Next.js project root
 nadia-costuras/
 ├─ .husky/
-│  └─ _/
-│     ├─ .gitignore
-│     ├─ applypatch-msg
-│     ├─ commit-msg
-│     ├─ h
-│     ├─ husky.sh
-│     ├─ post-applypatch
-│     ├─ post-checkout
-│     ├─ post-commit
-│     ├─ post-merge
-│     ├─ post-rewrite
-│     ├─ pre-applypatch
-│     ├─ pre-auto-gc
-│     ├─ pre-commit
-│     ├─ pre-merge-commit
-│     ├─ pre-push
-│     ├─ pre-rebase
-│     └─ prepare-commit-msg
 ├─ .vercel/
-│  ├─ project.json
-│  └─ README.txt
 ├─ public/
 │  ├─ pattern.svg
 │  ├─ screenshot.png
@@ -99,7 +78,6 @@ nadia-costuras/
 │  │  │  └─ Icon.tsx
 │  │  ├─ AnimatedHero.tsx
 │  │  ├─ AnimatedService.tsx
-│  │  ├─ FloatingActionButton.tsx
 │  │  ├─ MotionWrapper.tsx
 │  │  ├─ ServiceCard.tsx
 │  │  └─ structured-data.tsx
@@ -127,9 +105,8 @@ nadia-costuras/
 
 ## 💬 License
 
-This project is for personal and learning purposes only.
+This a professional commissioned project.
 
 ---
 
 Made with ❤️ by [Marcy](https://github.com/marcythany)
-

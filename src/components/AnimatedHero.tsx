@@ -42,7 +42,7 @@ export default function AnimatedHero() {
 			</MotionWrapper>
 			<MotionWrapper
 				as='h1'
-				className='text-4xl md:text-5xl font-bold mb-4 text-gradient bg-gradient-to-r from-amber-700 via-orange-800 to-rose-800 bg-clip-text text-transparent'
+				className='text-4xl md:text-5xl font-bold mb-4 text-gradient bg-gradient-to-r from-amber-300 via-orange-300/80 to-amber-300 bg-clip-text text-transparent'
 				initial={{ opacity: 0, y: 20 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.3 }}

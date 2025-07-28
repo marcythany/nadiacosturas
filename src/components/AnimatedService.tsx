@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function AnimatedService() {
 	return (
-		<div className='relative w-full bg-amber-800/80 pt-16 pb-20 overflow-hidden'>
+		<div className='relative w-full bg-amber-700/70 pt-16 pb-20 overflow-hidden'>
 			{/* Top frill animado: “costura” da esquerda → direita */}
 			<motion.div
 				className='absolute top-0 left-0 right-0 h-12 bg-repeat-x'
@@ -28,7 +28,7 @@ export default function AnimatedService() {
 			{/* Conteúdo */}
 			<div className='max-w-7xl mx-auto px-4'>
 				<motion.h2
-					className='text-4xl font-bold text-center mb-12 text-amber-100'
+					className='text-4xl font-bold text-center mb-12 text-amber-300'
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.3 }}
