@@ -22,9 +22,12 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang='en' className={`${geistSans.variable} ${geistMono.variable}`}>
-			<body className='antialiased text-gray-900'>
-				<div className="fixed top-0 left-0 w-full h-full bg-[url('/zig-zag.svg')] bg-repeat bg-[length:40px_12px] opacity-30 -z-50 pointer-events-none" />
+		<html
+			lang='pt-BR'
+			className={`${geistSans.variable} ${geistMono.variable}`}
+		>
+			<body>
+				<div className='bg-pattern' />
 				{children}
 			</body>
 		</html>
