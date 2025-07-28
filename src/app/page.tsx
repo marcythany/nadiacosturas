@@ -1,4 +1,3 @@
-// src/app/page.tsx
 import AnimatedHero from '@/components/AnimatedHero';
 import AnimatedService from '@/components/AnimatedService';
 import FloatingActionButton from '@/components/FloatingActionButton';
@@ -39,7 +38,7 @@ export const metadata: Metadata = {
 		siteName: 'Nadia Costuras',
 		images: [
 			{
-				url: 'https://nadiacosturas.com/og-image.jpg',
+				url: 'https://nadiacosturas.com/opengraph-image.png',
 				width: 1200,
 				height: 630,
 			},
